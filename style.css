@@ -1,0 +1,55 @@
+/* ELEMENT SELECTOR */
+body {
+    background-color: #f4f4f4;       
+    font-family: Arial, Helvetica, sans-serif; 
+    margin: 0;
+    padding: 0;
+}
+
+/* ID SELECTOR */
+#main-header {Meleny
+    background-color: #222;
+    color: :pink;                    
+    padding: 20px;                   
+    text-align: center;              
+    position: sticky;                
+    top: 0;
+}
+
+/* CLASS SELECTOR */
+.subtitle {
+    font-size: 18px;                
+    letter-spacing: 2px;
+}
+
+/* DESCENDANT SELECTOR */
+.bio p {
+    line-height: 1.6;                
+    color: #333;
+}
+
+/* GROUP SELECTOR */
+h2, h3 {
+    color: #6b2fa1;                 
+    margin-top: 30px;               
+}
+
+/* PSEUDO-CLASS SELECTOR (extra, looks good to profs) */
+li:hover {
+    color: white;
+}
+
+/* BOX MODEL EXAMPLE */
+section {
+    background-color: white;
+    margin: 20px;                    
+    padding: 15px;                   
+    border: 2px solid #ddd;          
+}
+
+/* FOOTER */
+footer {
+    text-align: center;
+    font-size: 14px;
+    margin-bottom: 20px;
+}
